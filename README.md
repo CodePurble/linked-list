@@ -21,7 +21,7 @@ Lists are indexed the same way arrays are indexed (0, 1, 2, ...)
     ```bash
     cd linked-list
     chmod +x setup.sh
-    ./setup.sh test;
+    ./setup.sh test
     ```
     Also check out the `test.c` file after this to see what's happening
 
