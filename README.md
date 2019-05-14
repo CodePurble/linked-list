@@ -5,7 +5,10 @@ A Linux development environment with root permissions is required
 This is a linked list implementation in the C language. These lists can be used to store values of type `int` only.
 
 ## Setting it up
-1. Clone this repo
+1. Clone this repo by downloading and extracting the zip file or through a terminal     like so-
+```bash
+git clone https://github.com/CodePurble/linked-list.git
+```
 2. Open up a terminal and run `./setup.sh path_to_your_include_dir path_to_your_source_dir`
     * If you run into an error like this- 
       ```bash
