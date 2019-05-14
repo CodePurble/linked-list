@@ -1,5 +1,14 @@
-## **Disclaimer** 
-A Linux development environment is required
+## Before you begin
+A Linux development environment is required  
+Use of this library requires that you use the following directory structure-
+```bash
+.
+├── include
+└── src
+```
+All source files must be put in the `src` directory  
+When compiling, manual linking of the header file is required.
+Use of a makefile is recommended
 
 ## About
 This is a linked list implementation in the C language. These lists can be used to store values of type `int` only.  
