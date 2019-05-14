@@ -1,12 +1,12 @@
-INC = include
+INC = ./include
 
-BIN = bin
+BIN = ./bin
 
 EXEC = example.out
 
-OBJ = obj
+OBJ = ./obj
 
-SRC = src
+SRC = ./src
 
 VPATH = $(SRC):$(INC)
 
