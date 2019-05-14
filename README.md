@@ -1,5 +1,5 @@
 ## **Disclaimer** 
-A Linux development environment with root permissions is required
+A Linux development environment is required
 
 ## About
 This is a linked list implementation in the C language. These lists can be used to store values of type `int` only.
@@ -20,7 +20,7 @@ This is a linked list implementation in the C language. These lists can be used 
         ```
       Do this
         ```bash
-        sudo chmod +x setup.sh
+        chmod +x setup.sh
         ```
       and then try again
 3. Be sure to include `linkedList.h` in all program files where you want to use this library
