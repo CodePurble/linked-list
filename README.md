@@ -9,7 +9,7 @@ Use of this library requires you to use the following directory structure-
 All source files must be put in the `src` directory  
 When compiling, manual linking of the header file is required.  
 Use of a makefile is recommended.  
-For a better understanding of the usage of this library, check out the `test.c` program in the `src` directory.
+For a better understanding of the usage of this library, check out the `example.c` program in the `src` directory.
 
 ## About
 This is a linked list implementation in the C language. These lists can be used to store values of type `int` only.  
@@ -31,9 +31,9 @@ Lists are indexed the same way arrays are indexed (0, 1, 2, ...)
     ```bash
     cd linked-list
     chmod +x setup.sh
-    ./setup.sh test
+    ./setup.sh example
     ```
-    Also check out the `test.c` file after this to see what's happening
+    Also check out the `example.c` file after this to see what's happening
 
 ## How does it work??
 Here, each element of the list is called a _node_. A node is defined by the following structure-

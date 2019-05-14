@@ -2,7 +2,7 @@ INC = include
 
 BIN = bin
 
-EXEC = test.out
+EXEC = example.out
 
 OBJ = obj
 
@@ -12,10 +12,10 @@ VPATH = $(SRC):$(INC)
 
 all: $(BIN)/$(EXEC)
 
-$(BIN)/$(EXEC): $(OBJ)/test.o $(OBJ)/linkedList.o
+$(BIN)/$(EXEC): $(OBJ)/example.o $(OBJ)/linkedList.o
 	gcc -o $@ $^
 
-$(OBJ)/test.o: test.c linkedList.h
+$(OBJ)/example.o: example.c linkedList.h
 	gcc -c $<  -I $(INC) -o $@
 
 $(OBJ)/linkedList.o: linkedList.c linkedList.h

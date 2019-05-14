@@ -1,8 +1,8 @@
 #!/bin/bash
 
-if [ $1 == test ]; then
+if [ $1 == example ]; then
     make makeDir && make;
-    bin/test.out;
+    bin/example.out;
 else
     INC=$1;
     SRC=$2;
