@@ -1,6 +1,6 @@
 ## Before you begin
 A Linux development environment is required  
-Use of this library requires that you use the following directory structure-
+Use of this library requires you to use the following directory structure-
 ```bash
 .
 ├── include
