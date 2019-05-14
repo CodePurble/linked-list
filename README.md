@@ -9,6 +9,7 @@ Use of this library requires that you use the following directory structure-
 All source files must be put in the `src` directory  
 When compiling, manual linking of the header file is required.  
 Use of a makefile is recommended
+For a better understanding of the usage of this library, check out the `test.c` program in the `src` directory.
 
 ## About
 This is a linked list implementation in the C language. These lists can be used to store values of type `int` only.  
@@ -68,12 +69,3 @@ typedef struct NODE node;
 * #### `node* deleteNode(node* head, int index)`
     * Removes node at `index` in the list represented by `head`
     * Returns a pointer to `head`
-
-## How do I use this library??
-* Declare and initialise nodes as follows-
-```C
-node* node1 = makeNode(5); // Makes a node holding value 5
-```
-* All nodes use `malloc()` calls when being initialised (using the `makeNode()` function), so it is advised not to explicitcly use `malloc()` for nodes wherever possible.
-
-# Have fun! :)
