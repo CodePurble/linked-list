@@ -1,17 +1,17 @@
 #!/bin/bash
 
-if ( $1 == test); then
+if [ $1 == test ]; then
     make makeDir && make;
-    bin/test.out
+    bin/test.out;
 else
     INC=$1;
     SRC=$2;
-    if [ ! -d $INC ] && [ ! -d $SRC]; then
+    if [ ! -d $INC ] && [ ! -d $SRC ]; then
         mkdir $INC;
         mkdir $SRC;
-    elif [ ! -d $SRC]; then
+    elif [ ! -d $SRC ]; then
         mkdir $SRC;
-    elif [ ! -d $INC]; then
+    elif [ ! -d $INC ]; then
         mkdir $INC;
     fi
     cp src/* $SRC;
