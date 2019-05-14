@@ -13,18 +13,16 @@ Lists are indexed the same way arrays are indexed (0, 1, 2, ...)
 2. Open up a terminal and run
     ```bash
     cd linked-list
+    chmod +x setup.sh
     ./setup.sh path_to_your_include_dir path_to_your_source_dir
     ```
-    * If you run into an error like this- 
-        ```bash
-        bash: ./setup.sh: Permission denied
-        ```
-      Do this
-        ```bash
-        chmod +x setup.sh
-        ```
-      and then try again
 3. Be sure to include `linkedList.h` in all program files where you want to use this library
+4. If you want to quickly see what can be done using this library, run this in the cloned directory itself
+    ```bash
+    cd linked-list
+    chmod +x setup.sh
+    ./setup.sh test;
+    ```
 
 ## How does it work??
 Here, each element of the list is called a _node_. A node is defined by the following structure-
