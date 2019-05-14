@@ -8,7 +8,7 @@ Use of this library requires that you use the following directory structure-
 ```
 All source files must be put in the `src` directory  
 When compiling, manual linking of the header file is required.  
-Use of a makefile is recommended
+Use of a makefile is recommended.  
 For a better understanding of the usage of this library, check out the `test.c` program in the `src` directory.
 
 ## About
