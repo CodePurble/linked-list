@@ -7,7 +7,7 @@ Use of this library requires that you use the following directory structure-
 └── src
 ```
 All source files must be put in the `src` directory  
-When compiling, manual linking of the header file is required.
+When compiling, manual linking of the header file is required.  
 Use of a makefile is recommended
 
 ## About
