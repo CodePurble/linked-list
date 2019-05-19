@@ -9,7 +9,7 @@ void main(void)
     node* head; // Declare a node
     node* n = makeNode(0); // Dummy node to be used later (Note that this is how it must be done)
 
-    printf("List creation\n");
+    printf("\nList creation\n");
     head = createList(head, 4, &testArray[0]); // Create a linked list containing the values in testArray[]
     prettyPrint(head);
     printf("\n");
@@ -31,6 +31,6 @@ void main(void)
     
     printf("Getting a node from a list\n");
     n = getNode(head, 0); // Gets node at index 0 of list represented by head
-    printf("n points to %d, and holds %d\n", n, n->value);
+    printf("n points to %d, and holds %d\n\n", n, n->value);
     
 }
