@@ -1,5 +1,5 @@
 ## Quick links
-[Setup](https://github.com/CodePurble/linked-list#setting-it-up)
+[Setup](https://github.com/CodePurble/linked-list#setting-it-up)  
 [Functions available](https://github.com/CodePurble/linked-list#available-functions)
 
 ## Before you begin
