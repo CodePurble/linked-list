@@ -129,3 +129,16 @@ int listLength(node* head)
 
     return length;
 }
+
+node* appendList(node* head, node* appendHead)
+{
+    node* curr = head;
+    
+    while(curr->next != NULL){
+        curr = curr->next;
+    }
+
+    curr->next = appendHead;
+
+    return head;
+}

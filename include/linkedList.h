@@ -18,5 +18,6 @@ node* makeNode(int value);
 node* getNode(node* head, int index);
 node* insertNode(node* head, int index, int value);
 node* deleteNode(node* head, int index);
+node* appendList(node* head, node* appendHead);
 
 #endif

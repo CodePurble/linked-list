@@ -78,3 +78,9 @@ typedef struct NODE node;
 * #### `node* deleteNode(node* head, int index)`
     * Removes node at `index` in the list represented by `head`
     * Returns a pointer to `head`
+* #### `node* appendList(node* head, node* appendHead)`
+    * Appends the list represented by `appendHead` to the list represented by `head`
+    * Returns a pointer to `head`
+
+# Remember
+##Always initialise all new node pointers to NULL before using them
