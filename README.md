@@ -83,4 +83,4 @@ typedef struct NODE node;
     * Returns a pointer to `head`
 
 # Remember
-## Always initialise all new node pointers to NULL before using them
+## Always initialise new node pointers to `NULL` before using them
