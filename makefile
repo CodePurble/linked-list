@@ -1,3 +1,4 @@
+
 INC = ./include
 
 BIN = ./bin
@@ -24,12 +25,12 @@ $(OBJ)/linkedList.o: linkedList.c linkedList.h
 .PHONY: clean
 clean:
 	@if [ -d ./obj ]; then \
-		echo "Removing /obj"; \
-		rm -r $(OBJ); \
+		echo "Cleaning /obj"; \
+		rm -r $(OBJ)/*; \
 	fi
 	@if [ -d ./bin ]; then \
-		echo "Removing /bin"; \
-		rm -r $(BIN); \
+		echo "Cleaning /bin"; \
+		rm -r $(BIN)/*; \
 	fi
 
 makeDir:
