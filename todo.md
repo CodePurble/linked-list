@@ -1,6 +1,5 @@
 ## To-Do
-<!-- Nothing to be done!! -->
-* ~~Add `node* appendList()` function~~
+Nothing to be done!!
 ### Note
 * **NO** `malloc` calls to create nodes.  
     Use `makeNode()` **ALWAYS**
