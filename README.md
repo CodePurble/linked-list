@@ -1,7 +1,8 @@
-## Quick links
+# Quick links
 [Setup](https://github.com/CodePurble/linked-list#setting-it-up)  
 [Functions available](https://github.com/CodePurble/linked-list#available-functions)
 
+# About
 ## Before you begin
 A Linux development environment is required  
 Use of this library requires you to use the following directory structure-
@@ -11,36 +12,36 @@ Use of this library requires you to use the following directory structure-
 └── src
 ```
 All source files must be put in the `src` directory  
-When compiling, manual linking of the header file is required.  
+When building the executable, manual linking of the library is required.  
 Use of a makefile is recommended.  
 For a better understanding of the usage of this library, check out the `example.c` program in the `src` directory.
 
 ### Prerequisites
 * `GNUmake`
-* `git`
+* `git`(if you wish to contribute/modify)
 * `gcc`
 
-## About
 This is a linked list implementation in the C language. These lists can be used to store values of type `int` only.  
 Lists are indexed the same way arrays are indexed (0, 1, 2, ...)
 
 ## Setting it up
-1. Clone this repo by downloading and extracting the zip file or through a terminal like so-
+1. Clone this repo by downloading and extracting the zip file or through git as follows:
     ```bash
-    git clone https://github.com/CodePurble/linked-list.git
+    $ git clone https://github.com/CodePurble/linked-list.git
     ```
 2. Open up a terminal and run
     ```bash
-    cd linked-list
-    chmod +x setup.sh
-    ./setup.sh path_to_your_include_dir path_to_your_source_dir
+    $ cd linked-list
+    $ chmod +x setup.sh
+    $ ./setup.sh path_to_your_include_dir path_to_your_source_dir
     ```
-3. Be sure to include `linkedList.h` in all program files where you want to use this library
-4. If you want to quickly see what can be done using this library, run this
+# Library Documentation
+1. Be sure to include `linkedList.h` in all program files where you want to use this library
+2. If you want to quickly see what can be done using this library, run this
     ```bash
-    cd linked-list
-    chmod +x setup.sh
-    ./setup.sh example
+    $ cd linked-list
+    $ chmod +x setup.sh
+    $ ./setup.sh example
     ```
     Also check out the `example.c` file after this to see what's happening
 
