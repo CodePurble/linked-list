@@ -3,7 +3,7 @@ INC = ./include
 
 BIN = ./bin
 
-EXEC = example.out
+EXEC = example
 
 OBJ = ./obj
 
