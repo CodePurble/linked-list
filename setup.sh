@@ -19,6 +19,6 @@ elif [ $# == 2 ]; then
 else
     echo "error: No valid arguments given!!";
     echo "Please enter one of these as arguments-";
-    echo "1. <path_to_your_include_dir> <path_to_your_source_dir">;
+    echo "1. <path_to_your_include_dir> <path_to_your_source_dir>";
     echo "2. example";
 fi
