@@ -14,7 +14,7 @@ elif [ $# == 2 ]; then
     elif [ ! -d $INC ]; then
         mkdir $INC;
     fi
-    cp src/* $SRC;
+    cp src/linkedList.c $SRC;
     cp include/* $INC;
 else
     echo "error: No valid arguments given!!";
