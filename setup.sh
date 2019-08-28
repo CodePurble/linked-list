@@ -7,15 +7,15 @@ elif [ $# == 2 ]; then
     INC=$1;
     SRC=$2;
     if [ ! -d $INC ] && [ ! -d $SRC ]; then
-        mkdir $INC;
-        mkdir $SRC;
+        mkdir -v $INC;
+        mkdir -v $SRC;
     elif [ ! -d $SRC ]; then
-        mkdir $SRC;
+        mkdir -v $SRC;
     elif [ ! -d $INC ]; then
-        mkdir $INC;
+        mkdir -v $INC;
     fi
-    cp src/linkedList.c $SRC;
-    cp include/* $INC;
+    cp -v src/linkedList.c $SRC;
+    cp -v include/* $INC;
 else
     echo "error: No valid arguments given!!";
     echo "Please enter one of these as arguments-";
