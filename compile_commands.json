@@ -1,0 +1,28 @@
+[
+ {
+  "directory": "/home/ramprakash/RPDATA/Repos/linked-list",
+  "arguments": [
+   "gcc",
+   "-c",
+   "./src/example.c",
+   "-I",
+   "./include",
+   "-o",
+   "obj/example.o"
+  ],
+  "file": "./src/example.c"
+ },
+ {
+  "directory": "/home/ramprakash/RPDATA/Repos/linked-list",
+  "arguments": [
+   "gcc",
+   "-c",
+   "./src/linkedList.c",
+   "-I",
+   "./include",
+   "-o",
+   "obj/linkedList.o"
+  ],
+  "file": "./src/linkedList.c"
+ }
+]

@@ -1,0 +1,47 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	/3fdf28bc/
+$(BIN)/$(EXEC)	makefile	/^$(BIN)\/$(EXEC): $(OBJ)\/example.o $(OBJ)\/linkedList.o$/;"	t	language:Make
+$(OBJ)/example.o	makefile	/^$(OBJ)\/example.o: example.c linkedList.h$/;"	t	language:Make
+$(OBJ)/linkedList.o	makefile	/^$(OBJ)\/linkedList.o: linkedList.c linkedList.h$/;"	t	language:Make
+About	README.md	/^# About$/;"	c	language:Markdown
+Always initialise new node pointers to `NULL` before using them	README.md	/^## Always initialise new node pointers to `NULL` before using them$/;"	s	language:Markdown
+Available functions	README.md	/^## Available functions$/;"	s	language:Markdown
+BIN	makefile	/^BIN = .\/bin$/;"	m	language:Make
+Before you begin	README.md	/^## Before you begin$/;"	s	language:Markdown
+EXEC	makefile	/^EXEC = example$/;"	m	language:Make
+Guidelines	todo.md	/^### Guidelines$/;"	S	language:Markdown
+How does it work??	README.md	/^## How does it work??$/;"	s	language:Markdown
+INC	makefile	/^INC = .\/include$/;"	m	language:Make
+Library Documentation	README.md	/^# Library Documentation$/;"	c	language:Markdown
+NODE	include/linkedList.h	/^struct NODE{$/;"	s	language:C++
+Note	todo.md	/^### Note$/;"	S	language:Markdown
+OBJ	makefile	/^OBJ = .\/obj$/;"	m	language:Make
+Prerequisites	README.md	/^### Prerequisites$/;"	S	language:Markdown
+Quick links	README.md	/^# Quick links$/;"	c	language:Markdown
+Remember	README.md	/^# Remember$/;"	c	language:Markdown
+SRC	makefile	/^SRC = .\/src$/;"	m	language:Make
+Setting it up	README.md	/^## Setting it up$/;"	s	language:Markdown
+To-Do	todo.md	/^## To-Do$/;"	s	language:Markdown
+VPATH	makefile	/^VPATH = $(SRC):$(INC)$/;"	m	language:Make
+all	makefile	/^all: $(BIN)\/$(EXEC)$/;"	t	language:Make
+append	src/linkedList.c	/^node* append(node* head, int value)$/;"	f	language:C	typeref:typename:node *
+appendList	src/linkedList.c	/^node* appendList(node* head, node* appendHead)$/;"	f	language:C	typeref:typename:node *
+clean	makefile	/^clean:$/;"	t	language:Make
+createList	src/linkedList.c	/^node* createList(node* head, int length, int valArray[])$/;"	f	language:C	typeref:typename:node *
+deleteNode	src/linkedList.c	/^node* deleteNode(node* head, int index)$/;"	f	language:C	typeref:typename:node *
+getNode	src/linkedList.c	/^node* getNode(node* head, int index)$/;"	f	language:C	typeref:typename:node *
+insertNode	src/linkedList.c	/^node* insertNode(node* head, int index, int value)$/;"	f	language:C	typeref:typename:node *
+linkedLish_h	include/linkedList.h	/^#define linkedLish_h$/;"	d	language:C++
+listLength	src/linkedList.c	/^int listLength(node* head)$/;"	f	language:C	typeref:typename:int
+main	src/example.c	/^void main(void)$/;"	f	language:C	typeref:typename:void
+makeDir	makefile	/^makeDir:$/;"	t	language:Make
+makeNode	src/linkedList.c	/^node* makeNode(int value)$/;"	f	language:C	typeref:typename:node *
+next	include/linkedList.h	/^    struct NODE* next;$/;"	m	language:C++	struct:NODE	typeref:struct:NODE *
+node	include/linkedList.h	/^typedef struct NODE node;$/;"	t	language:C++	typeref:struct:NODE
+prettyPrint	src/linkedList.c	/^void prettyPrint(node* head)$/;"	f	language:C	typeref:typename:void
+value	include/linkedList.h	/^    int value;$/;"	m	language:C++	struct:NODE	typeref:typename:int
