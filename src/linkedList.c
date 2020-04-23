@@ -17,7 +17,7 @@ node* append(node* head, int value)
 {
     node* curr = head;
     node* newNode = makeNode(value);
-    
+
     if(head == NULL){
         // Adding to empty list
         head = newNode;
@@ -27,7 +27,7 @@ node* append(node* head, int value)
         while(curr->next != NULL){
             curr = curr->next;
         }
-        
+
         curr->next = newNode;
     }
 
@@ -38,7 +38,7 @@ node* insertNode(node* head, int index, int value)
 {
     node *newNode = makeNode(value);
     node* prev = makeNode(0);
-    
+
     if(index == 0){
         newNode->next = head;
         head = newNode;
@@ -57,7 +57,7 @@ node* deleteNode(node* head, int index)
     node* removed = makeNode(0);
     node* prev = makeNode(0);
     removed = getNode(head, index);
-    
+
     if(index == 0){
         head = getNode(head, 1);
         removed->next = NULL;
@@ -73,7 +73,7 @@ node* deleteNode(node* head, int index)
         prev->next = next;
         removed->next = NULL;
     }
-    
+
     free(removed);
     return head;
 }
@@ -82,7 +82,7 @@ node* createList(node* head, int length, int valArray[])
 {
     int i;
     node* nextNode;
-    
+
     for(i = 0; i < length; i++){
         head = append(head, valArray[i]);
     }
@@ -133,7 +133,7 @@ int listLength(node* head)
 node* appendList(node* head, node* appendHead)
 {
     node* curr = head;
-    
+
     while(curr->next != NULL){
         curr = curr->next;
     }
